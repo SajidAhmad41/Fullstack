@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images with Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .profile {
+            display: inline-block;
+            margin: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #007BFF;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profile Links</h1>
+
+    <div class="profile">
+        <a href="https://www.linkedin.com/in/sajid-ahmad-shaik-7a3030300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxjIOY75nUUsiYh_-GzsG7gupcwVbQvDblLw&s" >
+        </a>
+        <p><a href="https://www.linkedin.com/in/sajid-ahmad-shaik-7a3030300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Sajid Ahmad</a></p>
+    </div>
+
+    <div class="profile">
+        <a href="https://www.linkedin.com/in/sai-ram-reddy-thammaneni-4436a3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://gear5world.com/cdn/shop/articles/luffy_mugiwara_chapeau_paille_one_piece.jpg?v=1698943111" >
+        </a>
+        <p><a href="https://www.linkedin.com/in/sai-ram-reddy-thammaneni-4436a3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Sai Ram Reddy</a></p>
+    </div>
+
+    <div class="profile">
+        <a href="https://www.linkedin.com/in/jeshva-praveen-6a8424300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://play-lh.googleusercontent.com/15OKLti0ofnjK4XK1bgRXgsoblPvMi3hCA5z2o9WAcjssFNt2dXxemp2Om9vB3A_jYAe" >
+        </a>
+        <p><a href="https://www.linkedin.com/in/jeshva-praveen-6a8424300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Jeshva Praveen</a></p>
+    </div>
+
+    <div class="profile">
+        <a href="https://www.linkedin.com/in/thota-leela-sai-krishna-8003a6292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQFXl0b6mTEnLIHJrZ5mFNRhwDo0fa2Xcw6A&s" alt="Your Image">
+        </a>
+        <p><a href="https://www.linkedin.com/in/thota-leela-sai-krishna-8003a6292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Leela Sai Krishna</a></p>
+    </div>
+
+    <div class="profile">
+        <a href="https://www.linkedin.com/in/peram-durga-shankar-18408b324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://play-lh.googleusercontent.com/a-J2zdxxrgCABjRbRFutnxiD5nmvlj9VfH0pmAm-Zb0a98WDx7rGwvbAETtxKbbJ6Q" alt="Your Image">
+        </a>
+        <p><a href="https://www.linkedin.com/in/peram-durga-shankar-18408b324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Durga Shankar</a></p>
+    </div>
+
+    <div class="profile">
+        <a href="https://www.linkedin.com/in/charan-thokala-a76a53305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://image.lexica.art/md2_webp/d175db2a-b7d2-44fd-a5b8-8a50a4777601" alt="Your Image">
+        </a>
+        <p><a href="https://www.linkedin.com/in/charan-thokala-a76a53305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Ram Charan</a></p>
+    </div>
+
+</body>
+</html>
