@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thumbnail Image Gallery</title>
+        <style>
+            h1 {
+                color: #333;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 10px;
+                text-align: center;
+            }
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1px;
+            }
+            .thumb {
+                width: calc(20% - 10px);
+                position: relative;
+                padding-top: 20%;
+                box-sizing: border-box;
+            }
+            .thumb img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 70%;
+                height: 80%;
+                object-fit: cover;
+                border: 2px solid #ddd;
+                border-radius: 4px;
+                color: blue;
+            }
+            .thumb img:hover {
+                border-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Thumbnail Image Gallery</h1>
+        <div class="gallery">
+            <div class="thumb">
+                <img src="" alt="Image 1 Thumbnail">
+            </div>
+            <div class="thumb">
+                <img src="" alt="Image 2 Thumbnail">
+            </div>
+            <div class="thumb">
+                <img src="" alt="Image 3 Thumbnail">
+            </div>
+            <div class="thumb">
+                <img src="" alt="Image 4 Thumbnail">
+            </div>
+            <div class="thumb">
+                <img src="" alt="Image 5 Thumbnail">
+            </div>
+            <div class="thumb">
+                <img src="" alt="Image 6 Thumbnail">
+            </div>
+        </div>
+    </body>
+</html>
