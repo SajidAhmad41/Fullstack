@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <table>
+            <caption>Registration Details</caption>
+            <tr>
+                <th>Field</th>
+                <th>Input</th>
+            </tr>
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male" required> Male
+                    <input type="radio" name="gender" value="female" required> Female
+                    <input type="radio" name="gender" value="other" required> Other
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="reading"> Reading
+                    <input type="checkbox" name="hobbies" value="traveling"> Traveling
+                    <input type="checkbox" name="hobbies" value="sports"> Sports
+                </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <select name="country" required>
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="4" cols="30" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
