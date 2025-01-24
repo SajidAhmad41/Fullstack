@@ -14,3 +14,45 @@
     </noframes>
 </frameset>
 </html>
+
+
+#image.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frames Example</title>
+</head>
+<frameset rows="33%, 33%, 34%">
+    <frame src="image.html" name="frame1">
+    <frame src="paragraph.html" name="frame2">
+    <frame src="link.html" name="frame3">
+    <noframes>
+        <body>
+            <p>Your browser does not support frames.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>
+
+#paragraph.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paragraph Frame</title>
+</head>
+<body>
+    <p>This is a paragraph displayed in the second frame. Frames allow you to divide the browser window into multiple sections, each displaying a different HTML document.</p>
+</body>
+</html>
+
+
+#link.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Frame</title>
+</head>
+<body>
+    <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+</body>
+</html>
