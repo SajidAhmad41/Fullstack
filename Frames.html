@@ -1,40 +1,49 @@
-#image.html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Frames Example</title>
-</head>
-<frameset rows="33%, 33%, 34%">
-    <frame src="image.html" name="frame1">
-    <frame src="paragraph.html" name="frame2">
-    <frame src="https://www.google.com" name="frame3">
-    <noframes>
-        <body>
-            <p>Your browser does not support frames.</p>
-        </body>
-    </noframes>
-</frameset>
-</html>
 
-#paragraph.html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Frame Example</title>
+</head>
+<body>
+    <iframe src="https://vtricks.in/lms/public/frontend/infixlmstheme/img/blog/full-stack-web-development.jpg" name="frame1" width=800px height=450px></iframe>
+    <iframe src="paragraph.html" name="frame2" width="100%" height="33%"></iframe>
+    <iframe src="https://wikipedia.com" name="frame3" width="100%" height=300px></iframe>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Frame</title>
+</head>
+<body>
+    <h1>Welcome to the Image Frame</h1>
+    <p >This is an example image or content in the first frame.</p>
+    <a href="https://vtricks.in/lms/public/frontend/infixlmstheme/img/blog/full-stack-web-development.jpg"> </a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paragraph Frame</title>
 </head>
 <body>
     <p>This is a paragraph displayed in the second frame. Frames allow you to divide the browser window into multiple sections, each displaying a different HTML document.</p>
 </body>
 </html>
-
-
-#link.html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link Frame</title>
 </head>
 <body>
-    <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+    <a href="https://wikipedia.com" target="_blank">Visit wikipedia.com</a>
 </body>
 </html>
